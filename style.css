@@ -1,0 +1,83 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(#6E4FD6, #9580E8);
+  background-attachment: fixed;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  flex: 1 0 auto;
+  padding-top: 5%;
+}
+
+#title {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+#form {
+  display: block;
+  text-align: center;
+}
+
+#guess {
+  width: 300px;
+  height: 90px;
+  border: none;
+  border-radius: 5px;
+  font-size: 40px;
+  text-align: center;
+  box-shadow: 0px 3px 5px #414242;
+}
+
+#button {
+  border: none;
+  width: 300px;
+  height: 90px;
+  border-radius: 5px;
+  background: linear-gradient(#7DC577, #8DBF42);
+  margin-left: 5px;
+  font-size: 40px;
+  box-shadow: 0px 3px 5px #414242;
+}
+
+#love {
+  display: block;
+  text-align: center;
+  flex-shrink: 0;
+  font-size: 13px;
+  margin-bottom: auto;
+  padding: 20px;
+}
+
+#answer {
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+
+#reset {
+  display: block;
+  text-align: center;
+}
+
+.resettt {
+  border: none;
+  width: 300px;
+  height: 90px;
+  border-radius: 5px;
+  background: linear-gradient(#7DC577, #8DBF42);
+  margin-left: 5px;
+  font-size: 40px;
+  box-shadow: 0px 3px 5px #414242;
+}
